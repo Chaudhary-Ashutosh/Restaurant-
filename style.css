@@ -1,0 +1,111 @@
+.header{
+    display: grid;
+    grid-template-columns: 80px 2fr 30px;
+    margin: 10px ;
+}
+.logo{
+    height: 32px;
+    border-radius: 16px;
+    margin: auto;
+}
+.search-button{
+    height: 39px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: 0px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.search-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+.search-icon{
+    height: 25px;
+}
+
+.box {
+    max-width: 450px;
+    background: black;
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+.AboutUs {
+    color: #FFD700; /* Gold color for the title */
+}
+p {
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    color: #D4AF37; /* Gold Color */
+}
+.menu-section {
+    margin-top: 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.item-name {
+    font-weight: 600;
+}
+.price {
+    color: #D4AF37;
+    font-weight: bold;
+}
